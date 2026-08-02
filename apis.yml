@@ -1,7 +1,23 @@
 aid: terapify
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terapify.png
 name: Terapify
-description: Terapify is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Terapify is an online therapy platform for the Spanish-speaking market, connecting individuals
+  in Mexico and Latin America with certified psychologists for private, secure video-call sessions. Founded
+  in 2019 and backed by 500 Global and Y Combinator, the platform matches patients to therapists via a
+  therapeutic-affinity test, offers individual and couples therapy, parent orientation, and workplace
+  mental-health programs for companies, plus mindfulness, yoga, and breathing resources. It operates as
+  a consumer web and mobile (iOS/Android) product and publishes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/terapify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Therapy
+- Telehealth
+- Healthcare
+- Psychology
+- Wellness
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,22 @@ maintainers:
 common:
 - type: Website
   url: https://terapify.com
+- type: Blog
+  url: https://terapify.com/blog
+- type: Pricing
+  url: https://www.terapify.com/precios-de-psicologos-en-linea
+- type: Login
+  url: https://terapify.com/login
+- type: PrivacyPolicy
+  url: https://terapify.com/politica-de-privacidad
+- type: TermsOfService
+  url: https://terapify.com/terminos-y-condiciones
+- type: Support
+  url: https://terapify.com/preguntas-frecuentes
+- type: DomainSecurity
+  url: security/terapify-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
